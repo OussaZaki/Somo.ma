@@ -1,0 +1,240 @@
+/* CSS Document */
+#socialLeft ul
+{
+float:right;
+margin-right:25px;
+padding-left:20px;
+padding: 0;
+list-style-type: none;
+}
+
+#socialLeft ul li {
+ margin:10px;
+float:right;
+display: inline-bloc; 
+}
+
+.split{
+	margin-right: 10px;
+	margin-top: -10px;
+	height: 160px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/	
+
+.mb6 {
+	margin-bottom:6px;
+	}
+.mr30 {
+	margin-right:30px;
+	}
+	
+.mr35 {
+	margin-right: 20px;
+	}
+	
+.mt14 {
+	margin-top: 14px;
+	text-align: justify;
+	}	
+	
+.pt20 {
+	padding-top:20px;
+	}
+	
+.pr20 {
+	padding-right:20px;
+	}
+	
+.pt25 {
+	padding-top:25px;
+	}
+
+.mt30 {
+	margin-top:30px;
+	}
+	
+.pl15 {
+	padding-left:15px;
+	}
+	
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+	{
+	display:inline;
+	float: left;
+	position: relative;
+	}
+	
+/* Grid - content >> Global
+----------------------------------------------------------------------------------------------------*/
+.content .grid_1{
+	width: 690px;
+	float: left;
+	padding-bottom: 20px;
+
+	}
+
+.content .grid_2{
+	width: 260px;
+	float: right;
+	padding: 20px 0px 0px 10px;
+	}
+
+.content .grid_3{
+	width: 210px;
+	float: left;
+	}
+	
+.content .grid_4{
+	width:310px;
+	float: left;
+	}
+		
+.content .grid_5{
+	width:440px;
+	float: left;
+	}	
+	
+.content .grid_6{
+	width:200px;
+	float: left;
+	}	
+
+/* Box >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.img {
+	float:left;
+	padding:4px;
+	}	
+
+.imgpr {float:left;
+
+	background-color:#fff;
+	padding:4px;
+	}
+
+.imgpr:hover {
+	float:left;
+
+	background-color:#63650a;
+	padding:4px;
+	}
+	
+.partn_box{
+	width:180px;
+	float: left;
+	margin-right:35px;
+	}
+	
+.partn_box .img:hover{
+	border: 5px #e02d49 solid;
+	}
+/* background >>
+----------------------------------------------------------------------------------------------------*/
+	
+/* link >>
+----------------------------------------------------------------------------------------------------*/
+a{	
+	text-decoration:underline;
+	color:#2f2f2f; 
+	}
+	
+a:hover{
+	text-decoration:none;
+	}
+
+a.button {
+	display:block;
+	float:left;
+	background-color:#e02d49;
+	padding:9px 18px;
+	margin-right: 20px;
+	font-family:'bebas_neueregular';
+	font-size:22px; 
+	line-height:22px; 
+	color:#e8e8e8; 
+	margin-top: 22px;
+	text-decoration:none;
+	border-radius: 14px;
+	
+	}
+	
+a.button:hover {
+	text-decoration:none;
+	background:#0d3153;
+	font-style:normal;
+	}
+
+a:hover img.img {
+
+	}	
+	
+a.read_more{
+	display: block;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #63650a;
+	text-decoration: underline;
+	text-transform: uppercase;
+	padding-top: 10px;
+	}	
+	
+a.read_more:hover{
+	display: block;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #63650a;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 10px;
+	}
+	
+a.link{
+	display:block;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	line-height:12px; 
+	color:#2f2f2f; 
+	font-weight:bold;
+	text-decoration: none;
+	}
+		
+ a.link:hover{
+ 	display:block;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; 
+	line-height:12px; 
+	color:#63650a; 
+	font-weight:bold;
+	text-decoration: underline;
+	}	
+	
+/* CSS Document */
+.content .grid_1_1 {
+	width: 690px;
+	float: right;
+	margin: 40px 0px 40px 0px;
+	padding: 0px 0px 0px 25px;
+	border-left: 1px solid #888888;
+}
+.content .grid_2_1 {
+	width: 250px;
+	float: left;
+	margin: 40px 0px 40px 0px;
+	padding: 0px 0px 0px 0px;
+}

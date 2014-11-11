@@ -1,0 +1,2 @@
+function ws_basic(c,a,b){this.go=function(d){b.find("ul").stop(true).animate({left:(d?-d+"00%":(/Safari/.test(navigator.userAgent)?"0%":0))},c.duration,"easeInOutExpo");return d}};// -----------------------------------------------------------------------------------
+jQuery("#slider-container1").slider({effect:"basic",prev:"",next:"",duration:5*100,delay:26*100,width:1000,height:547,autoPlay:true,playPause:false,stopOnHover:false,loop:false,bullets:true,caption:false,captionEffect:"slide",controls:true,onBeforeStep:0,images:0});
